@@ -1,6 +1,6 @@
 #Vaccination Alert
 Poll the [UK NHS vaccinations site](https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/book-coronavirus-vaccination/") and alert me when the minimum required age allows me to book a vaccination.
-![NHS vaccination site](https://github.com/memsb/vaccine_alert/blob/main/docs/nhs_site.png?raw=true "NHS vaccination site")
+![NHS vaccination site](https://github.com/memsb/vaccine_alert/blob/main/docs/nhs_site.png?raw=true  "NHS vaccination site")
 
 ## Infrastructure Deployment
 Deploy using [Terraform](https://registry.terraform.io/) to AWS. Ensure you have an AWS account created, and your credentials stored locally, then create infrastructure using
