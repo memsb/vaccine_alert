@@ -1,0 +1,5 @@
+.idea
+venv
+infrasructure/.terraform
+infrasructure/terraform.tfstate*
+infrasructure/secret.tf
