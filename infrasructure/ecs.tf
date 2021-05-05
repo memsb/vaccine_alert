@@ -36,6 +36,7 @@ resource "aws_ecs_task_definition" "scraper" {
   container_definitions = jsonencode([
     {
       name = "vaccination_alert"
+      command: ["37"]
       image = "${data.aws_caller_identity.current.account_id}.dkr.ecr.${var.region}.amazonaws.com/vaccination_alert:latest"
       logConfiguration = {
         logDriver = "awslogs"
